@@ -125,7 +125,7 @@ h6:hover{
   display: grid;
   background-color: white;
   padding: 20px;
-  padding-top: 50px;
+  padding-top: 5px;
 }
 
 /* Hide the images by default */
@@ -149,6 +149,13 @@ h6:hover{
   user-select: none;
 }
 
+.prev{
+  margin-left: 10px;
+}
+.next{
+  margin-right: 10px;
+}
+
 /* Position the "next button" to the right */
 .next {
   right: 0;
@@ -157,7 +164,7 @@ h6:hover{
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0,0,0,0.2);
 }
 
 /* Caption text */
@@ -178,14 +185,14 @@ h6:hover{
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
-  top: 50px;
+  top: 5px;
 }
 
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
-  height: 15px;
-  width: 15px;
+  height: 10px;
+  width: 10px;
   margin: 0 2px;
   background-color: lightgrey;
   border-radius: 50%;
@@ -222,6 +229,17 @@ h6:hover{
   padding: 10px;
   bottom: 0;
   width: 100%;
+}
+
+@media screen and (min-width: 700px){
+
+.wrapper{
+  background-color: grey;
+  width:auto;
+}
+  .slideshow-container {
+    max-width:750px;
+  }
 }
 
 /*////// Large screen Responsive ///////*/
