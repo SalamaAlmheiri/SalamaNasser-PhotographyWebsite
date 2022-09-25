@@ -233,11 +233,6 @@ h6:hover{
 
 @media screen and (min-width: 700px){
 
-  .wrapper{
-  /* background-color: grey; */
-  width:auto;
-  }
-
   .slideshow-container {
     max-width:750px;
   }
@@ -259,74 +254,3 @@ h6:hover{
   }
 
 }
-
-/*////// Large screen Responsive ///////*/
-/* @media screen and (min-width: 700px){
-
-  .wrapper{
-    text-align: left;
-    width: 1400px;
-    height: 900px;
-    background-color: white;
-  }
-
-  .container{
-    display: flex;
-  }
-
-  .sidebar{
-    display: block;
-    padding: 20px;
-    height: 900px;
-    background-color: white;
-    width: 210px;
-  }
-
-  .options a{
-  text-decoration: none;
-  font-weight: bold;
-  color: black;
-}
-.options a:hover{
-  color:grey;
-  position: relative;
-  animation-name: moving1;
-  animation-duration: 1s;
-}
-
-.insta a{
-  text-decoration: none;
-  font-weight: bold;
-  color: black;
-}
-
-li{
-  padding: 10px;
-}
-
-
-ul {
-  margin-top: 60px;
-  margin-left: 30px;
-}
-
-
-.insta {
-  margin-top: 10px;
-  margin-left: 30px;
-  width: 150px;
-  display: inline-block;
-}
-
-.insta-list{
-  display: inline-block;
-  padding: 1px;
-}
-
-h1{
-  font-size: 43px;
-  margin-top: 30px;
-  margin-left: 30px;
-}
-
-} */
