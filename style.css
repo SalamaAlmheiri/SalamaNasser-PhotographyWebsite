@@ -22,7 +22,8 @@ body, ul,h1, h2, h3, h4, h5, h6, p {
 .wrapper{
   /* display: inline-block; */
   text-align: center;
-  width: 1400px;
+  /* width: 1400px; */
+  width: auto;
   height: auto;
   background-color: white;
   /* lightblue */
@@ -85,7 +86,6 @@ a:hover{
   margin-left: 30px;
   width: 150px;
   display: inline-block;
-
   /* background-color: blue; */
 }
 
@@ -233,13 +233,31 @@ h6:hover{
 
 @media screen and (min-width: 700px){
 
-.wrapper{
+  .wrapper{
   /* background-color: grey; */
   width:auto;
-}
+  }
+
   .slideshow-container {
     max-width:750px;
   }
+}
+
+/* //////Smaller screen style///////// */
+@media screen and (max-width: 600px){
+
+  h1{
+    font-size: 53px;
+  }
+
+  .insta {
+    font-size: 1.1em;
+  }
+
+  .options{
+    font-size: 1.1em;
+  }
+
 }
 
 /*////// Large screen Responsive ///////*/
